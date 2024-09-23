@@ -1,0 +1,53 @@
+/* Centralizando o conteúdo */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', 'san-serif';
+}
+
+/* Container flexível */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Formulário com espaçamento */
+form {
+    margin-bottom: 20px;
+}
+
+input,
+button {
+    padding: 8px;
+}
+
+button {
+    background-color: #edad5d;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none; /* Remove as bolinhas da lista */
+    padding: 0;
+}
+
+/* Estilo padrão para os itens da lista */
+li {
+    background-color: #f0f0f0;
+    margin: 5px 0;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer; /* Adiciona um cursor de ponteiro para indicar que é clicável */
+}
+
+/* Estilo para itens riscados */
+.strike-through {
+    text-decoration: line-through;
+    color: gray;
+}
